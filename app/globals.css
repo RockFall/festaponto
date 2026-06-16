@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --brat-green: #8CC63F;
+  --brat-dark: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--brat-green);
+  color: var(--brat-dark);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.brat-blur {
+  filter: blur(1.2px);
+  letter-spacing: -0.02em;
+}
+
+.brat-blur-heavy {
+  filter: blur(2px);
+  letter-spacing: -0.02em;
+}
