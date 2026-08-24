@@ -9,7 +9,7 @@ export default function Home() {
             festa<span className="font-bold">.</span>
           </h1>
           <p className="text-2xl lowercase text-[#1a1a1a] brat-blur opacity-80">
-            julho ou agosto.
+            19/09/2026 — de 17h até 00h
           </p>
         </div>
 
@@ -27,86 +27,19 @@ export default function Home() {
           </p>
         </div>
 
-        {/* CTA */}
-        <div className="flex flex-col gap-4">
+        {/* CTA — Google Forms */}
+        <div className="flex flex-col gap-3">
           <a
-            href="#inscricoes"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeLJujV-yr0GCSHnc2nqIUksSVARFkEC7Srj-omS5EO-nwuAQ/viewform?usp=dialog"
             className="inline-block text-center border-2 border-[#1a1a1a] text-[#1a1a1a] px-8 py-4 text-lg lowercase
                        hover:bg-[#1a1a1a] hover:text-[#8CC63F] transition-all duration-200 brat-blur"
           >
-            inscreva-se no show de talentos
+            inscreva-se no show de talentos →
           </a>
-        </div>
-
-        {/* Inscricoes Section */}
-        <section id="inscricoes" className="flex flex-col gap-6">
-          <h2 className="text-3xl lowercase text-[#1a1a1a] brat-blur">inscrições.</h2>
-          <p className="text-base lowercase opacity-75 brat-blur leading-relaxed">
-            preencha o formulário abaixo para se inscrever no show de talentos.
-            ninguém vai ficar excluído.
+          <p className="text-xs lowercase opacity-50 brat-blur">
+            você será redirecionado para o google forms
           </p>
-
-          <form className="flex flex-col gap-4" action="#" method="POST">
-            <div className="flex flex-col gap-1">
-              <label className="text-sm lowercase opacity-60 brat-blur">seu nome</label>
-              <input
-                type="text"
-                name="nome"
-                required
-                className="bg-transparent border-b-2 border-[#1a1a1a] border-opacity-40 py-2 text-[#1a1a1a]
-                           focus:outline-none focus:border-opacity-100 text-base lowercase placeholder-[#1a1a1a]
-                           placeholder-opacity-30 brat-blur transition-all"
-                placeholder="seu nome aqui"
-              />
-            </div>
-
-            <div className="flex flex-col gap-1">
-              <label className="text-sm lowercase opacity-60 brat-blur">contato (whatsapp / instagram)</label>
-              <input
-                type="text"
-                name="contato"
-                required
-                className="bg-transparent border-b-2 border-[#1a1a1a] border-opacity-40 py-2 text-[#1a1a1a]
-                           focus:outline-none focus:border-opacity-100 text-base lowercase placeholder-[#1a1a1a]
-                           placeholder-opacity-30 brat-blur transition-all"
-                placeholder="como te achar"
-              />
-            </div>
-
-            <div className="flex flex-col gap-1">
-              <label className="text-sm lowercase opacity-60 brat-blur">o que você vai apresentar?</label>
-              <textarea
-                name="apresentacao"
-                required
-                rows={3}
-                className="bg-transparent border-b-2 border-[#1a1a1a] border-opacity-40 py-2 text-[#1a1a1a]
-                           focus:outline-none focus:border-opacity-100 text-base lowercase placeholder-[#1a1a1a]
-                           placeholder-opacity-30 brat-blur transition-all resize-none"
-                placeholder="descreva sua apresentação (pode ser qualquer coisa)"
-              />
-            </div>
-
-            <div className="flex flex-col gap-1">
-              <label className="text-sm lowercase opacity-60 brat-blur">vai precisar de algo especial?</label>
-              <textarea
-                name="necessidades"
-                rows={2}
-                className="bg-transparent border-b-2 border-[#1a1a1a] border-opacity-40 py-2 text-[#1a1a1a]
-                           focus:outline-none focus:border-opacity-100 text-base lowercase placeholder-[#1a1a1a]
-                           placeholder-opacity-30 brat-blur transition-all resize-none"
-                placeholder="equipamentos, tempo de palco, etc. (opcional)"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="mt-2 border-2 border-[#1a1a1a] text-[#1a1a1a] px-8 py-3 text-base lowercase
-                         hover:bg-[#1a1a1a] hover:text-[#8CC63F] transition-all duration-200 brat-blur self-start"
-            >
-              enviar inscrição
-            </button>
-          </form>
-        </section>
+        </div>
 
         {/* Footer */}
         <footer className="text-xs lowercase opacity-40 brat-blur pt-4">
