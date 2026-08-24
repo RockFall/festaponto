@@ -9,7 +9,7 @@ export default function Home() {
             festa<span className="font-bold">.</span>
           </h1>
           <p className="text-2xl lowercase text-[#1a1a1a] brat-blur opacity-80">
-            19/09/2026 — de 17h até 00h
+            19/09/2026, de 17h até 00h
           </p>
         </div>
 
@@ -19,7 +19,7 @@ export default function Home() {
             uma festa com show de talentos.
           </p>
           <p className="text-base lowercase leading-relaxed opacity-75 brat-blur">
-            você pode apresentar absolutamente qualquer coisa — dança, música, banda completa,
+            você pode apresentar absolutamente qualquer coisa: dança, música, banda completa,
             peça teatral, stand-up, ou ler a bula da diporona.
           </p>
           <p className="text-base lowercase leading-relaxed opacity-75 brat-blur">
@@ -27,7 +27,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* CTA — Google Forms */}
+        {/* CTA: Google Forms */}
         <div className="flex flex-col gap-3">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeLJujV-yr0GCSHnc2nqIUksSVARFkEC7Srj-omS5EO-nwuAQ/viewform?usp=dialog"
